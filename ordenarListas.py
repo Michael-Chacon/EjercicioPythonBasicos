@@ -28,17 +28,14 @@ def listaDescendente(descendente):
 
 
 lista = []
-descendente = lista
-ascendente = lista
 
 llenarArray(lista)
 
-print('Lista base')
+print('Lista base:')
 print(lista)
     
-print('Lista ascendente')
-print(listaAscendente(ascendente))
+print('Lista ascendente:')
+print(listaAscendente(lista))
 
-
-print('Lista descendente')
-print(listaDescendente(ascendente))
+print('Lista descendente:')
+print(listaDescendente(lista))
